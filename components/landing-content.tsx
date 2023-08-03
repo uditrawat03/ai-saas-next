@@ -15,18 +15,6 @@ const testimonials = [
     title: "Designer",
     description: "I use this daily for generating new photos!",
   },
-  {
-    name: "Mark",
-    avatar: "M",
-    title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
-  },
-  {
-    name: "Jack",
-    avatar: "J",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
-  },
 ];
 
 export const LandingContent = () => {

@@ -39,9 +39,10 @@ export async function POST(req: Request) {
       messages,
     });
 
-    if (isPro) {
+    if (!isPro) {
       await increaseApiLimit();
     }
+
     return NextResponse.json(response.data.choices[0].message);
   } catch (error) {
     console.error("[CONVERSATION_ERROR]", error);
